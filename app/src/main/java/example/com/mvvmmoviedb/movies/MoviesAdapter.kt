@@ -1,6 +1,3 @@
-/**
- * Copyright (C) Vijay Kumar Yadav.
- */
 package example.com.mvvmmoviedb.movies
 
 import android.support.v7.widget.RecyclerView

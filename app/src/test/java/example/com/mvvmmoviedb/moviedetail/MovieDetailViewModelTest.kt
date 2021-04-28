@@ -1,6 +1,3 @@
-/**
- * Copyright (C) VijayK
- */
 package example.com.mvvmmoviedb.moviedetail
 
 import android.app.Application

@@ -1,15 +1,10 @@
-/**
- * Copyright (C) Vijay Kumar Yadav.
- */
+
 package example.com.mvvmmoviedb.data.model
 
 import com.google.gson.annotations.SerializedName
 import example.com.mvvmmoviedb.data.remote.RemoteDataSource
 import java.io.Serializable
 
-/**
- * Movie data class.
- */
 data class Movie constructor(
         @SerializedName("id")
         var id: Int,

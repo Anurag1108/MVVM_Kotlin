@@ -1,13 +1,8 @@
-/**
- * Copyright (C) Vijay Kumar Yadav.
- */
 package example.com.mvvmmoviedb.data
 
 import example.com.mvvmmoviedb.data.model.Movies
 
-/**
- * Main entry point for accessing data.
- */
+
 interface DataSource {
 
     interface GetMoviesCallback {

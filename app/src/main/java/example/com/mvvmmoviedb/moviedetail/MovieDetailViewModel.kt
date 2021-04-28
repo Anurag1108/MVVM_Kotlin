@@ -1,6 +1,4 @@
-/**
- * Copyright (C) Vijay Kumar Yadav.
- */
+
 package example.com.mvvmmoviedb.moviedetail
 
 import android.app.Application
@@ -12,9 +10,7 @@ import com.squareup.picasso.Picasso
 import example.com.mvvmmoviedb.data.Repository
 import example.com.mvvmmoviedb.data.model.Movie
 
-/**
- * View model for MovieDetailActivity.
- */
+
 class MovieDetailViewModel(
         context: Application,
         private val repository: Repository

@@ -1,6 +1,3 @@
-/**
- * Copyright (C) Vijay Kumar Yadav.
- */
 package example.com.mvvmmoviedb
 
 import android.content.Intent

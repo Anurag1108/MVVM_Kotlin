@@ -1,6 +1,4 @@
-/**
- * Copyright (C) Vijay Kumar Yadav.
- */
+
 package example.com.mvvmmoviedb.util;
 
 

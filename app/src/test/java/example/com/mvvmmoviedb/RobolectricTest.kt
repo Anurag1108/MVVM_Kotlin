@@ -9,9 +9,7 @@ import org.powermock.modules.junit4.rule.PowerMockRule
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 
-/**
- * Copyright (C) VijayK
- */
+/
 @RunWith(PowerMockRunner::class)
 @PowerMockRunnerDelegate(RobolectricTestRunner::class)
 @Config(constants = BuildConfig::class)

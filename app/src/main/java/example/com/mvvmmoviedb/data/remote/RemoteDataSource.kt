@@ -1,18 +1,15 @@
-/**
- * Copyright (C) Vijay Kumar Yadav.
- */
 package example.com.mvvmmoviedb.data.remote
 
+import android.arch.core.BuildConfig
 import example.com.mvvmmoviedb.BuildConfig
 import example.com.mvvmmoviedb.data.DataSource
 import example.com.mvvmmoviedb.data.model.Movies
+import example.com.mvvmmoviedb.data.remote.RemoteDataSource.Companion.API_KEY
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-/**
- * Implementation of the data source that interact with server.
- */
+
 class RemoteDataSource(val apiService: ApiService) : DataSource {
 
     companion object {
@@ -31,9 +28,6 @@ class RemoteDataSource(val apiService: ApiService) : DataSource {
         private var sINSTANCE: RemoteDataSource? = null
 
 
-        /**
-         * Returns the single instance of this class, creating it if necessary.
-         */
         @JvmStatic
         fun getInstance(apiService: ApiService) =
                 sINSTANCE ?: synchronized(RemoteDataSource::class.java) {

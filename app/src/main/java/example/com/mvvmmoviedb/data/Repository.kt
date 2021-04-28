@@ -1,12 +1,7 @@
-/**
- * Copyright (C) Vijay Kumar Yadav.
- */
 
 package example.com.mvvmmoviedb.data
 
-/**
- * Implementation of DataSource.Can work like a wrapper for all data source ( local or remote).
- */
+
 class Repository(private val remoteDataSource: DataSource) : DataSource {
 
     companion object {
